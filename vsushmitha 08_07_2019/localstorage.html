@@ -1,0 +1,18 @@
+<!DOCTYpe html>
+<html>
+<head>
+	<title>local storage </title>
+</head>
+<body>
+	<script>
+	// Checking browser support
+	if(typeof (storage) == "undefined"){
+		//Store
+		localStorage.website="abcd.com";
+	}
+	else {
+		alert("Sorry, Web Storage is not supported by your browser.");
+	}
+	</script>
+</body>
+</html>
